@@ -7,6 +7,25 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 0 20px 0;
@@ -67,7 +86,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: yellow;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 30px rgba(0,0,0,0.2)
 }
@@ -107,7 +126,7 @@ hr {
 #menu .phone span {
 	font-size: 14px;
 	display: block;
-	color: #1f386e;
+	/* color: #1f386e; */
 }
 .navbar-toggle {
 	border-radius: 0;
@@ -152,7 +171,7 @@ hr {
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-color: #1f386e;
+	background-color: #a5a5a5;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -315,7 +334,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: rgba(31, 56, 110, 0.8);
+	background: rgba(54, 72, 110, 0.8);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -382,7 +401,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: #1f386e;
+	background: #212530;
 	color: rgba(255,255,255,.65);
 }
 #contact .section-title {
